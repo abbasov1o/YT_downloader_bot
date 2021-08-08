@@ -6,6 +6,33 @@ import requests
 import logging
 import sys
 from autologging import logged, traced
+from pyrogram import Client, filters
+from pyrogram.types import (
+    InlineKeyboardButton,
+    InlineKeyboardMarkup
+)
+import youtube_dl
+from youtube_search import YoutubeSearch
+import requests
+
+import os
+from config import Config
+import os
+import requests
+import aiohttp
+import math
+from pyrogram import filters, Client
+from youtube_search import YoutubeSearch
+from urllib.parse import urlparse
+import aiofiles
+import os
+from random import randint
+from pyrogram.errors import FloodWait, MessageNotModified
+from pyrogram.types import Chat, Message, User
+import asyncio
+from typing import Callable, Coroutine, Dict, List, Tuple, Union
+import sys
+import time
 
 # Enable logging
 logging.basicConfig(
