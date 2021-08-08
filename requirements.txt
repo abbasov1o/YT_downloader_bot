@@ -28,15 +28,4 @@ pynput==1.7.3
 pyTelegramBotAPI==3.7.9
 shazamio==0.0.3
 six==1.15.0
-toml==0.10.2
-typing-extensions==3.10.0.0
-urllib3==1.26.6
-virtualenv==20.4.7
-wrapt==1.12.1
-yarl==1.6.3
-ffmpeg
-telethon~=1.14.0
-cryptg~=0.2
-python-dotenv~=0.13.0
-aiohttp[speedups]~=3.6.2
-deethon~=0.3.3
+
