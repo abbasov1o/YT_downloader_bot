@@ -128,7 +128,7 @@ def audio_dl(client, message):
     except exceptions.HTMLParseError:
         message.reply_text("Given URL couldn't be parsed.")
 
-@bot.on_message(filters.command(['mp3']))
+@app.on_message(filters.command(['mp3']))
 def mp3(client, message):
     query = ''
     for i in message.command[1:]:
